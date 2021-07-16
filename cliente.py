@@ -2,6 +2,7 @@ import socket
 import sys
 HOST = '127.0.0.1'
 # HOST = '199.99.99.29'
+# PORT = 64716
 PORT = 65432
 hostname = socket.gethostname()
 ip_address = socket.gethostbyname(hostname)
